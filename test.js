@@ -1,2 +1,2 @@
 console.log('привет')
-console.log(true)
+console.log()
