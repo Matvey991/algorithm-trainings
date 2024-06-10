@@ -10,5 +10,4 @@ author = {
     name: "Ричард М.В.",
     age: 43
 }
-let res = Object.assign(article, author)
-console.log(res)
+console.log(Object.assign(article, author))
