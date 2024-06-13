@@ -6,11 +6,6 @@ let employee  = [
     ["lastName", "Ivanov"],
     ["hireDate", "21.10.2015"]
 ] 
-let arr = ["hireDate", "21.10.2015"]
-for (let i of employee) {
-    if (employee[i] === arr) {
-        console.log(true)
-    } else {
-        console.log(false)
-    }
-}
+let res = employee.filter(e => e[0] !== 'hireDate') 
+res.push(["jobName", "IT PROG"])
+console.log(res)
