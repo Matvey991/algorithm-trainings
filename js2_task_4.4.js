@@ -7,12 +7,3 @@ let props = {
     age: 29,
     sayHi: ()=>"привет"
 }
-
-function getValue() {
-    const entries = Object.entries(this);
-    const propsArray = entries.filter(([key, value]) => typeof value !== 'function').map(([key, value]) => `${key}: ${value}`);
-    console.log(`Значения свойств объекта props (${propsArray.join(', ')})`);
-}
-
-const getValueBound = getValue.bind(props);
-getValueBound();
