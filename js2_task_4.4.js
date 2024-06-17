@@ -7,3 +7,4 @@ let props = {
     age: 29,
     sayHi: ()=>"привет"
 }
+let arr = Object.entries(props)
