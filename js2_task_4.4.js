@@ -7,4 +7,13 @@ let props = {
     age: 29,
     sayHi: ()=>"привет"
 }
-let arr = Object.entries(props)
+function getValue() {
+    for (const key in this) {
+        if (typeof this[key] !== 'function') {
+            console.log(`${key}: ${this[key]}`);
+        }
+    }
+}
+
+const getValueBound = getValue.bind(props);
+getValueBound();
