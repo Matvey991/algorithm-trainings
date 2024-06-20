@@ -3,21 +3,22 @@
 // за исключением одного целого числа N. Напишите метод, который принимает массив в 
 // качестве аргумента и возвращает этот «выброс» N.
 
-let integers = [2,6,8,10,3] 
+let integers = [-2,-6,-8,-10,-3] 
+function findOutlier(integers) {
 let even = []
 let odd = []
-function findOutlier(integers) {
-for (let i = 0; i < integers.length; i++) {
-if (integers[i] % 2 === 0) {
+for (let i = 0;i < integers.length; i++) {
+    if (integers[i] % 2 === 0) {
 even.push(integers[i])
-} else if (integers[i] % 2 === 1) {
-odd.push(integers[i])
-}
-}
-if (even.length === 1) {
-    console.log(even.join(' '))
+    } else if (integers[i] % 2 !== 0) {
+        odd.push(integers[i])
+    } 
+} if (even.length === 1) {
+let res1 = even.join()
+return Number(res1)
 } else if (odd.length === 1) {
-    console.log(odd.join(' '))
+    let res2 = odd.join()
+return Number(res2)
 }
-} 
+}
 findOutlier(integers)
