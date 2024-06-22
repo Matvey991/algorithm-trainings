@@ -8,4 +8,4 @@ let car  = {
     engine: "170 hp"
 }
 delete car.engine
-console.log(car)
+console.log(car) 

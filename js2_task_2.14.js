@@ -10,6 +10,6 @@ if (sum <= 50){
     sum += numbers[i]
 } if (sum <= 50) {
     res += 1
-}
+} 
 }
 console.log(res)

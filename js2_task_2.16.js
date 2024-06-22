@@ -17,4 +17,4 @@ break
 } return res
 
     }
-intersection(array_1, array_2)
+intersection(array_1, array_2) 

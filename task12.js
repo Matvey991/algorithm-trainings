@@ -21,4 +21,4 @@ for (let i = 0; i < dna.length; i++) {
 }
 return res
 }
-dnaStrand(dna)
+dnaStrand(dna) 

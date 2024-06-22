@@ -11,3 +11,4 @@ author = {
     age: 43
 }
 console.log(Object.assign(article, author))
+ 

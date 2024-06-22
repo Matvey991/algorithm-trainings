@@ -21,4 +21,4 @@ return Number(res1)
 return Number(res2)
 }
 }
-findOutlier(integers)
+findOutlier(integers) 

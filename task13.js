@@ -14,4 +14,4 @@ res.push(friends[i])
 }
 return res
 }
-friend(friends)
+friend(friends) 

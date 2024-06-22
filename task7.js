@@ -12,4 +12,4 @@ function fakeBin(x) {
     }
     return result
 }
-console.log(fakeBin(x))
+console.log(fakeBin(x)) 

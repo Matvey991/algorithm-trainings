@@ -5,4 +5,4 @@ let res = array.length
 function count(array) {
 console.log(`Количество элементов в массиве: ${res}`)
 }
-count(array)
+count(array) 

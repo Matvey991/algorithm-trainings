@@ -9,4 +9,4 @@ let arr2 = number * 9
         return number
     }
 }
-simpleMultiplication(number)
+simpleMultiplication(number) 

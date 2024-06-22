@@ -9,5 +9,5 @@ let goods = {
 }
 let arr1 = Object.keys(goods)
 let arr2 = Object.values(goods)
-let res = [...arr1, ...arr2]
+let res = [...arr1, ...arr2] 
 console.log(res)

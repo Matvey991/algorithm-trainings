@@ -7,4 +7,4 @@ let array = [1,2,3,4,5]
 function invert(array) {
 return array.map(e => -e)
 }
-invert(array)
+invert(array) 

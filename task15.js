@@ -9,4 +9,4 @@ let res = filt.reduce(function(previousValue, currentItem) {
 }, 0)
 return res 
 }
-positiveSum(arr)
+positiveSum(arr) 

@@ -13,4 +13,4 @@ let res = mpg * fuelLeft
         return false
     }
 };
-console.log(zeroFuel(distanceToPump, mpg, fuelLeft))
+console.log(zeroFuel(distanceToPump, mpg, fuelLeft)) 

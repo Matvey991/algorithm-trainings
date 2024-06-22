@@ -16,3 +16,4 @@ let res = parseInt(arr.join(''), 2)
 return res
 }
 console.log(binaryArrayToNumber(arr))
+ 

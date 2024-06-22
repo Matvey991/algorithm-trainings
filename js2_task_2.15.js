@@ -5,7 +5,7 @@ let values = ["100", "30", "Не число", "20", "Тоже не число"]
 let sum = []
 for (let i = 0; i < values.length; i++) {
 if (!isNaN(values[i])) {
-sum.push(values[i])
+sum.push(values[i]) 
 }
 }
 let transformation = sum.map(Number)

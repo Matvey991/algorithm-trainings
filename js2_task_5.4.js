@@ -20,4 +20,4 @@ class Delivery {
         console.log(false)
     }
 }
-}
+} 

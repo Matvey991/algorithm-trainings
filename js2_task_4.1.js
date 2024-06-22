@@ -22,4 +22,4 @@ function getName() {
     let arr1 = `${this.new_name} ${this.new_age}`
     return arr + arr1
 }
-console.log(getName())
+console.log(getName()) 

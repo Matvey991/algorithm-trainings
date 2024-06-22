@@ -17,3 +17,4 @@ function getValue() {
 
 const getValueBound = getValue.bind(props);
 getValueBound();
+ 

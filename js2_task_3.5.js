@@ -8,4 +8,4 @@ let employee  = [
 ] 
 let res = employee.filter(e => e[0] !== 'hireDate') 
 res.push(["jobName", "IT PROG"])
-console.log(res)
+console.log(res) 

@@ -15,4 +15,4 @@ if (res === 'function') {
 delete employees[i]
 }
     }
-console.log(Object.keys(employees).join(', '))
+console.log(Object.keys(employees).join(', '))  
