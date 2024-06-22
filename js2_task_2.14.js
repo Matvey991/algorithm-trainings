@@ -12,4 +12,4 @@ if (sum <= 50){
     res += 1
 } 
 }
-console.log(res)
+console.log(res) 
