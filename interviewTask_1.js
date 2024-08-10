@@ -1,3 +1,6 @@
+// Вернуть объект с ключами type из масива,
+// значение - массив элементов с таким type
+
 const arr = [
     { type: "banana", weight: 32 },
     { type: "apple", weight: 24 },
