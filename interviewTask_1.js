@@ -20,7 +20,7 @@ const groupByType = (arr) => {
             result[type] = [rest]
         }
     });
-    console.log(result);
+    return result;
     
 }
 groupByType(arr)
