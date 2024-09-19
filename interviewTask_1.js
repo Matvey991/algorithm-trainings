@@ -23,4 +23,4 @@ const groupByType = (arr) => {
     return result;
     
 }
-groupByType(arr)
+console.log(groupByType(arr));

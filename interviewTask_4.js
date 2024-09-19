@@ -7,6 +7,7 @@ let obj = {
     "Огурец": "овощ",
     "Вишня": "ягода"
 }
+
 let myObj = {}
 for (let key in obj) {
     let value = obj[key]
