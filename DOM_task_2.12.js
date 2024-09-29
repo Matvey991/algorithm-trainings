@@ -8,11 +8,11 @@
 // Пример результата:
 // {"div": 1, "p": 2, "h2": 2}
 
-let arr = {}
-let div = document.querySelectorAll('div').length
-let p = document.querySelectorAll('p').length
-let h2 = document.querySelectorAll('h2').length
-arr.div = div
-arr.p = p
-arr.h2 = h2
-console.log(arr)
+let arr = {};
+let div = document.querySelectorAll("div").length;
+let p = document.querySelectorAll("p").length;
+let h2 = document.querySelectorAll("h2").length;
+arr.div = div;
+arr.p = p;
+arr.h2 = h2;
+console.log(arr);

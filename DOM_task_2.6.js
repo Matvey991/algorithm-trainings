@@ -6,10 +6,10 @@
 // Пример результата:
 // <p>Абзац<p></p>
 
-let res = document.querySelectorAll('p')
+let res = document.querySelectorAll("p");
 for (let i = 0; i < res.length; i++) {
-if (res[i].textContent === 'Delete') {
-    res[i].remove()
-}
-        console.log(res[i])
+  if (res[i].textContent === "Delete") {
+    res[i].remove();
+  }
+  console.log(res[i]);
 }

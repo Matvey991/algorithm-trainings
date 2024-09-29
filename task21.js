@@ -2,7 +2,8 @@
 // Например:
 // 1.08 --> 30
 
-let s = 1.08
+let s = 1.08;
 function cockroachSpeed(s) {
-return Math.round(res / 0.036)
-} cockroachSpeed(s)
+  return Math.round(res / 0.036);
+}
+cockroachSpeed(s);
