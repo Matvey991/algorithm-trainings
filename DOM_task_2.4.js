@@ -6,8 +6,8 @@
 // <div class="adds"><p>Реклама</p></div>
 // <div class="adds">Баннер</div>
 
-let res = document.querySelectorAll('div')
+let res = document.querySelectorAll("div");
 for (let i = 0; i < res.length; i++) {
-    res[i].className = 'adds'
-    console.log(res[i])
+  res[i].className = "adds";
+  console.log(res[i]);
 }

@@ -3,9 +3,9 @@
 // <div class="price">100</div>
 // Пример результата:
 // <div class="price">200</div>
-let arr = document.querySelectorAll('.price')
+let arr = document.querySelectorAll(".price");
 for (let i = 0; i < arr.length; i++) {
-    let res = arr[i].innerHTML
-    let result = res * 2
-    res[i].innerHTML = result
+  let res = arr[i].innerHTML;
+  let result = res * 2;
+  res[i].innerHTML = result;
 }

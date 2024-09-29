@@ -8,13 +8,14 @@
 // waitколичество людей, ожидающих посадки в автобус, не считая водителя.
 // Если места достаточно, вернуть 0, а если нет, вернуть количество пассажиров, которых он не может взять.
 
-let cap = 100
-let on = 60
-let wait = 50
+let cap = 100;
+let on = 60;
+let wait = 50;
 function enough(cap, on, wait) {
-    if (on + wait <= cap) {
-    return 0
-    } else {
-    return (on + wait) - cap
-    }
- } enough(cap, on, wait)
+  if (on + wait <= cap) {
+    return 0;
+  } else {
+    return on + wait - cap;
+  }
+}
+enough(cap, on, wait);

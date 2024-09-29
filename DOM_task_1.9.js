@@ -8,14 +8,14 @@
 // <p class="numeric"><b>-12</b></p>
 // <p class="numeric">16</p>
 
-let numerics = document.getElementsByClassName('numeric')
+let numerics = document.getElementsByClassName("numeric");
 for (let i = 0; i < numerics.length; i++) {
-numeric = numerics[i]
-let value = parseInt(numeric.textContent, 10)
-if (value < 0) {
-let bold = document.createElement('b')
-bold.textContent = numeric.textContent
-numeric.innerHTML = ''
-numeric.appendChild(bold)
-}
+  numeric = numerics[i];
+  let value = parseInt(numeric.textContent, 10);
+  if (value < 0) {
+    let bold = document.createElement("b");
+    bold.textContent = numeric.textContent;
+    numeric.innerHTML = "";
+    numeric.appendChild(bold);
+  }
 }

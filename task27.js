@@ -8,8 +8,8 @@
 // Во входной строке всегда будет хотя бы одно число.
 // Выходная строка должна состоять из двух чисел, разделенных одним пробелом, причем наибольшее число должно быть первым.
 
-let numbers = "1 2 3 4 5"
-let arr = numbers.split(' ').map(Number)
-let res1 = Math.max(...arr)
-let res2 = Math.min(...arr)
-return `${res1} ${res2}`
+let numbers = "1 2 3 4 5";
+let arr = numbers.split(" ").map(Number);
+let res1 = Math.max(...arr);
+let res2 = Math.min(...arr);
+return `${res1} ${res2}`;
