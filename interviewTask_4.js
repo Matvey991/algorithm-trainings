@@ -17,4 +17,4 @@ for (let key in obj) {
     myObj[value]++;
   }
 }
-console.log(myObj);
+console.log(myObj)

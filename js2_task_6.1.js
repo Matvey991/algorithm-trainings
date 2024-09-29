@@ -9,4 +9,4 @@ for (let i = 0; i < coupons.length; i++) {
     }
   }
 }
-console.log(sum);
+console.log(sum)

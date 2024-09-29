@@ -18,4 +18,4 @@ function digPow(n, p) {
     return -1;
   }
 }
-digPow(n, p);
+digPow(n, p)

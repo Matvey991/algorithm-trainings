@@ -9,4 +9,4 @@ let hero = {
 hero.getPosition = function () {
   console.log("Позиция героя: " + this.position);
 };
-console.log(hero.getPosition());
+console.log(hero.getPosition())

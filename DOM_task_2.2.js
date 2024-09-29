@@ -10,4 +10,4 @@ let new_element = document.createElement("h2");
 new_element.innerHTML = "Сегодня солнечно, минус 15";
 let res = document.querySelector(".content");
 res.append(new_element);
-console.log(res)` `;
+console.log(res)` `

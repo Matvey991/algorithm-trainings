@@ -9,5 +9,5 @@
 let res = document.querySelectorAll("div");
 for (let i = 0; i < res.length; i++) {
   res[i].className = "adds";
-  console.log(res[i]);
+  console.log(res[i])
 }

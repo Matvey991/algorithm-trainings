@@ -10,4 +10,4 @@
 let res = "";
 let arr = document.querySelector(".cars").innerText;
 res += arr;
-let cars = res.replace(/\n/g, " ").split(" ");
+let cars = res.replace(/\n/g, " ").split(" ")

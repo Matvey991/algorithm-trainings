@@ -22,4 +22,4 @@ function findOutlier(integers) {
     return Number(res2);
   }
 }
-findOutlier(integers);
+findOutlier(integers)

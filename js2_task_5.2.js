@@ -17,4 +17,4 @@ for (let i in employees) {
     delete employees[i];
   }
 }
-console.log(Object.keys(employees).join(", "));
+console.log(Object.keys(employees).join(", "))

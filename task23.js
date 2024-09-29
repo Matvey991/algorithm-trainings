@@ -26,4 +26,4 @@ function likes(names) {
     return `${names[0]}, ${names[1]} and ${names.length - 2} others like this`;
   }
 }
-console.log(likes(names));
+console.log(likes(names))

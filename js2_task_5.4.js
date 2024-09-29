@@ -17,7 +17,7 @@ class Delivery {
     if (arr.codePointAt() === 43) {
       console.log(true);
     } else {
-      console.log(false);
+      console.log(false)
     }
   }
 }

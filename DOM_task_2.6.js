@@ -11,5 +11,5 @@ for (let i = 0; i < res.length; i++) {
   if (res[i].textContent === "Delete") {
     res[i].remove();
   }
-  console.log(res[i]);
+  console.log(res[i])
 }

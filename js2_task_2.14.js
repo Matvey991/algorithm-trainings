@@ -13,4 +13,4 @@ for (let i = 0; i < numbers.length; i++) {
     res += 1;
   }
 }
-console.log(res);
+console.log(res)

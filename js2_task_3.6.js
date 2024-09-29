@@ -11,4 +11,4 @@ let array = [
   ["object", {}],
 ];
 let res = array.filter(([_, b]) => typeof b === "string").length;
-console.log(`Количество строковых элементов в именованном массиве: ${res}`);
+console.log(`Количество строковых элементов в именованном массиве: ${res}`)

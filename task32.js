@@ -5,4 +5,4 @@ let arr = "1,2,3";
 function array(arr) {
   return arr.split(",").slice(1, -1).join(" ") || null;
 }
-array(arr);
+array(arr)

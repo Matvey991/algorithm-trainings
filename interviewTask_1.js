@@ -22,4 +22,4 @@ const groupByType = (arr) => {
   });
   return result;
 };
-console.log(groupByType(arr));
+console.log(groupByType(arr))

@@ -5,4 +5,4 @@ function resizeDivAndLog() {
   div.style.height = "100px";
 }
 
-resizeDivAndLog();
+resizeDivAndLog()

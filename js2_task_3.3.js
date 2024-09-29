@@ -10,4 +10,4 @@ author = {
   name: "Ричард М.В.",
   age: 43,
 };
-console.log(Object.assign(article, author));
+console.log(Object.assign(article, author))

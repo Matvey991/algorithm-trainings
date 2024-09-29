@@ -5,4 +5,4 @@ let words = ["hello", "world", "this", "is", "great"];
 function smash(words) {
   return words.join(" ").trim();
 }
-smash(words);
+smash(words)

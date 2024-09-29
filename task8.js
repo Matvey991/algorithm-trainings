@@ -7,4 +7,4 @@ function grow(x) {
   });
   return sum;
 }
-grow(x);
+grow(x)

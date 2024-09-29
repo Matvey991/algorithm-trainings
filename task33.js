@@ -13,4 +13,4 @@ let arr = [
   [6, 3, 5, 4, 3],
   [5, 8, 7, 4, 5],
 ];
-console.log(arr.reduce((a, b) => a + Math.min(...c)));
+console.log(arr.reduce((a, b) => a + Math.min(...c)))

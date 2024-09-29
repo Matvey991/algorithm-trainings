@@ -12,4 +12,4 @@ function take(arr, n) {
     }
   }
 }
-take(arr, n);
+take(arr, n)

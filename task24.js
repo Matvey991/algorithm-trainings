@@ -23,4 +23,4 @@ function rockPaperScissors(player1, player2) {
     return "Player 2 won!";
   }
 }
-rockPaperScissors(player1, player2);
+rockPaperScissors(player1, player2)

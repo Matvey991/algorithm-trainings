@@ -11,5 +11,5 @@ function isPangram(string) {
       result = false;
     }
   }
-  return result;
+  return result
 }

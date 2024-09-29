@@ -16,6 +16,6 @@ for (let i = 0; i < numerics.length; i++) {
     let bold = document.createElement("b");
     bold.textContent = numeric.textContent;
     numeric.innerHTML = "";
-    numeric.appendChild(bold);
+    numeric.appendChild(bold)
   }
 }

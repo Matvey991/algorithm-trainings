@@ -18,4 +18,4 @@ function enough(cap, on, wait) {
     return on + wait - cap;
   }
 }
-enough(cap, on, wait);
+enough(cap, on, wait)

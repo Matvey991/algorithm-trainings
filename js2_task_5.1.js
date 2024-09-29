@@ -8,4 +8,4 @@ let order = {
   totalPrice: 15000,
 };
 let descriptor = Object.getOwnPropertyDescriptor(order, "totalPrice");
-console.log(descriptor);
+console.log(descriptor)

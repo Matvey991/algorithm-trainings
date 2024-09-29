@@ -10,5 +10,5 @@ let result = res2 / res;
 if (yourPoints >= result) {
   console.log(true);
 } else {
-  console.log(false);
+  console.log(false)
 }

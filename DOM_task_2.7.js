@@ -15,6 +15,6 @@ let elems = document.querySelectorAll(".elems");
 elems.forEach((elem) => {
   let value = parseInt(elem.textContent);
   if (values.includes(value)) {
-    elem.parentNode.removeChild(elem);
+    elem.parentNode.removeChild(elem)
   }
 });

@@ -13,4 +13,4 @@ function sumPars(arr, num) {
   }
   return null;
 }
-console.log(sumPars(arr, num));
+console.log(sumPars(arr, num))

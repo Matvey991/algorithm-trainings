@@ -14,4 +14,4 @@ function friend(friends) {
   }
   return res;
 }
-friend(friends);
+friend(friends)

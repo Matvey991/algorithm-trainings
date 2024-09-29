@@ -12,4 +12,4 @@ let transformation = sum.map(Number);
 let res = transformation.reduce(function (previousValue, currentItem) {
   return previousValue + currentItem;
 }, 0);
-console.log(res);
+console.log(res)

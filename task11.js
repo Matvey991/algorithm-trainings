@@ -10,4 +10,4 @@ function addBinary(a, b) {
   let res = arr.toString(2);
   return `${a} + ${b} = ${arr} in decimal or ${res} in binary`;
 }
-console.log(addBinary(a, b));
+console.log(addBinary(a, b))

@@ -9,4 +9,4 @@ function simpleMultiplication(number) {
     return number;
   }
 }
-simpleMultiplication(number);
+simpleMultiplication(number)

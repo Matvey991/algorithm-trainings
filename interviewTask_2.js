@@ -23,4 +23,4 @@ const groupByType = (arr) => {
   });
   console.log(result);
 };
-groupByType(arr);
+groupByType(arr)

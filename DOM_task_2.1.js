@@ -7,4 +7,4 @@
 
 let new_element = document.createElement("p");
 new_element.innerText = "Ура! Мой скрипт отработал верно!";
-document.querySelector("#root").appendChild(new_element);
+document.querySelector("#root").appendChild(new_element)

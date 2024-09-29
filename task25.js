@@ -12,4 +12,4 @@ function towerBuilder(nFloors) {
   }
   return tower;
 }
-towerBuilder(nFloors);
+towerBuilder(nFloors)

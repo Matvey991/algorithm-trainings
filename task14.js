@@ -15,4 +15,4 @@ const binaryArrayToNumber = (arr) => {
   let res = parseInt(arr.join(""), 2);
   return res;
 };
-console.log(binaryArrayToNumber(arr));
+console.log(binaryArrayToNumber(arr))

@@ -13,4 +13,4 @@ function greet() {
     return "Hello guest";
   }
 }
-greet();
+greet()

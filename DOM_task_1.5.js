@@ -7,5 +7,5 @@ let arr = document.querySelectorAll(".price");
 for (let i = 0; i < arr.length; i++) {
   let res = arr[i].innerHTML;
   let result = res * 2;
-  res[i].innerHTML = result;
+  res[i].innerHTML = result
 }

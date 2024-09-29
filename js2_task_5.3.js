@@ -13,4 +13,4 @@ let firstName = "Александр";
 let lastName = "Петров";
 let uset = {
   firstName: lastName,
-};
+}

@@ -10,6 +10,6 @@ function findAverage(array) {
       return previousValue + currentItem;
     }, 0);
     let res = arr / sum;
-    return res;
+    return res
   }
 }

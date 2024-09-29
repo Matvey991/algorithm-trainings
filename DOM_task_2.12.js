@@ -15,4 +15,4 @@ let h2 = document.querySelectorAll("h2").length;
 arr.div = div;
 arr.p = p;
 arr.h2 = h2;
-console.log(arr);
+console.log(arr)

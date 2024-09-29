@@ -8,4 +8,4 @@
 let res = document.querySelectorAll(".target");
 res = res[2];
 let arr = res.tagName.toLowerCase();
-console.log(arr);
+console.log(arr)

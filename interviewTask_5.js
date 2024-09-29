@@ -25,4 +25,4 @@ const treeFn = (tree, parentKey) => {
   }
   console.log(result);
 };
-treeFn(tree, parentKey);
+treeFn(tree, parentKey)

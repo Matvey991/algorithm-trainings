@@ -7,4 +7,4 @@ function repeatStr() {
   let s = "Hello";
   return s.repeat(n);
 }
-repeatStr();
+repeatStr()

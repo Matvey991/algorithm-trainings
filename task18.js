@@ -6,6 +6,6 @@ for (let i = 0; i < a.length; i++) {
     break;
   } else {
     console.log(false);
-    break;
+    break
   }
 }

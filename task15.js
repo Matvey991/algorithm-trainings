@@ -9,4 +9,4 @@ function positiveSum(arr) {
   }, 0);
   return res;
 }
-positiveSum(arr);
+positiveSum(arr)

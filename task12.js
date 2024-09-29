@@ -21,4 +21,4 @@ function dnaStrand(dna) {
   }
   return res;
 }
-dnaStrand(dna);
+dnaStrand(dna)
